@@ -29,6 +29,7 @@ class CidadeController extends Controller
         $uf = $request->input('estado');
 
         $estado = strtolower($estado);
+        $uf = strtolower($uf);
 
         switch ($uf) {
             case 'acre': $uf = 'AC'; break;
