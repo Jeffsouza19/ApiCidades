@@ -6,6 +6,8 @@ Para a criaçao do banco de dados temos uma migrate.
 <h3>Rotas</h3>
 
 Descreveremos um pouco sobre as rotas
+
+
     - Metodo GET -
 
         - .../api/cidades
@@ -15,7 +17,9 @@ Descreveremos um pouco sobre as rotas
             esta rota retorna o id da cidade, buscando pelo nome da cidade
 
         - .../api/cidade/verifica
-            esta rota verifica se uma cidade ja esta cadastrada no bd, retornando os dados da cidade caso encontre ou, retornando 0 quando nao encontrar a cidade.
+            esta rota verifica se uma cidade ja esta cadastrada no bd, 
+            retornando os dados da cidade caso encontre ou, 
+            retornando 0 quando nao encontrar a cidade.
         
     - Metodo POST -
 
