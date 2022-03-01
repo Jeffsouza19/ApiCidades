@@ -1,7 +1,6 @@
 <h1>Olá!</h1>
 
 Esta é uma Api para armazenar Cidades de acordo com seus respectivos estados.
-Para a criaçao do banco de dados temos uma migrate.
 
 <h3>Rotas</h3>
 
