@@ -49,5 +49,6 @@ A migration disponivel cria duas tabelas no bd, sendo elas:
         para armazenar dados dos estados
         
 
-para a populaçao da tabela tb_estados executar o commando <strong>php artisan db:seed</strong>, temos uma unica seeder para popular,
+para a populaçao da tabela tb_estados executar o commando <strong>php artisan db:seed</strong>, temos uma unica seeder para popular.
+
 Lembrete: rodar a seeder após rodar a migrate, para polular a tabela de forma correta
